@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B80F08"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="296dp"
+        android:layout_height="57dp"
+        android:background="#51A155"
+        android:fontFamily="sans-serif"
+        android:text="@string/home_mart"
+        android:textColor="#EAE3E3"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="296dp"
+        android:layout_height="57dp"
+        android:background="#B659DD"
+        android:fontFamily="sans-serif"
+        android:text="@string/accessories"
+        android:textColor="#E4E0E0"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.933" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="222dp"
+        android:layout_height="87dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/mart"
+        android:textColor="#FFA000"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="374dp"
+        android:layout_height="78dp"
+        android:text="@string/cheap_and_best"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="296dp"
+        android:layout_height="57dp"
+        android:background="#4B81B6"
+        android:fontFamily="sans-serif"
+        android:text="@string/kirana_bazar"
+        android:textColor="#E1D0D0"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

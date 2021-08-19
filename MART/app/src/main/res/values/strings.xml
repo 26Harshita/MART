@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MART</string>
+    <string name="home_mart">Home Mart</string>
+    <string name="accessories">Accessories</string>
+    <string name="mart">MART</string>
+    <string name="cheap_and_best">CHEAP AND BEST</string>
+    <string name="kirana_bazar">Kirana Bazar</string>
+    <string name="todo">TODO</string>
+    <string name="shop_by_category">SHOP BY CATEGORY....</string>
+    <string name="dal_masala_oil">Dal, Masala, Oil</string>
+    <string name="bakery_snacks">Bakery, Snacks</string>
+    <string name="beauty_hygiene">Beauty, Hygiene</string>
+    <string name="fresh_arrivals1">FRESH ARRIVALS</string>
+    <string name="fresh_arrivals">FRESH ARRIVALS</string>
+
+
+
+
+    <string name="todo2">TODO2</string>
+    <string name="todo3">TODO3</string>
+    <string name="todo4">TODO4</string>
+    <string name="todo5">TODO5</string>
+    <string name="todo1">TODO1</string>
+</resources>

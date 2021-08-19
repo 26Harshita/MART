@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="415dp"
+        android:layout_height="731dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/photo" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="284dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="20dp"
+        android:background="#388E3C"
+        android:text="@string/fresh_arrivals"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="303dp"
+        android:layout_height="120dp"
+        android:fontFamily="@font/bevan"
+        android:text="@string/shop_by_category"
+        android:textColor="#CB000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="284dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="474dp"
+        android:background="#AF0404"
+        android:text="@string/dal_masala_oil"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="284dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="569dp"
+        android:layout_marginBottom="9dp"
+        android:background="#AF0404"
+        android:text="@string/bakery_snacks"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="284dp"
+        android:layout_height="69dp"
+        android:background="#AF0404"
+        android:text="@string/beauty_hygiene"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="87dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#BF000000"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
+        app:srcCompat="@android:drawable/sym_action_call" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
